@@ -1,0 +1,69 @@
+*
+{
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.stick
+{
+    position: fixed;
+}
+.navbar
+{
+    display: flex;
+    align-items: center;
+    height: 20%;
+    
+}
+nav
+{
+ flex: 1;
+ align-items: center;
+justify-content: center;
+
+}
+.grad
+{
+    background-image: linear-gradient(to bottom right, rgb(145, 71, 95), #9b859a,#92c8c8, #61a35a);
+}
+
+nav ul li
+{
+    display: inline-block;
+    list-style: none;
+    margin: 30px;
+    justify-content: center;
+    align-items: center;
+}
+nav ul li a
+{
+    text-decoration: none;
+    color: white;
+    size: 20px;
+}
+.imageround
+{
+   border-radius: 100%;
+   height: 350px;  
+}
+hr
+{
+    border-color: white;
+    border-width: 2px;
+    
+}
+p a
+{
+    text-decoration-line: underline;
+}
+.skillsimage
+{
+    height: 50px;
+}
+.vr
+{
+    border-left: 2px solid white;
+    height: 500px;
+    left: 50%;
+    
+}
