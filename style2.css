@@ -12,7 +12,7 @@
 {
     display: flex;
     align-items: center;
-    height: 20%;
+    height: max-content;
     
 }
 nav
@@ -24,7 +24,7 @@ justify-content: center;
 }
 .grad
 {
-    background-image: linear-gradient(to bottom right, rgb(145, 71, 95), #9b859a,#92c8c8, #61a35a);
+    background-image: linear-gradient(to bottom right, #E9DBBD, #CBB682, #A08C5B, #785F37);
 }
 
 nav ul li
@@ -38,8 +38,8 @@ nav ul li
 nav ul li a
 {
     text-decoration: none;
-    color: white;
-    size: 20px;
+    color: BLACK;
+    size: 100px;
 }
 .imageround
 {
@@ -48,9 +48,10 @@ nav ul li a
 }
 hr
 {
-    border-color: white;
-    border-width: 2px;
-    
+    height:2px;
+    border-width:0;
+    color:#A08C5B;
+    background-color:#A08C5B;
 }
 p a
 {
@@ -62,7 +63,7 @@ p a
 }
 .vr
 {
-    border-left: 2px solid white;
+    border-left: 2px solid #785f37;
     height: 500px;
     left: 50%;
     

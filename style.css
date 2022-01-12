@@ -8,10 +8,15 @@
 body
 {
     font-family:"Times New Roman", Times, serif;
-    background-color: rgb(49, 49, 49);
-    color: white;
+    background-color:#181510;
+    color: #785f37;
 }
 a
+{
+    cursor: pointer;
+    color: #A08C5B;
+}
+a:hover
 {
     cursor: pointer;
     color: white;
@@ -29,7 +34,7 @@ a
    top: 1%;
    right: 50%;
    left: 40%;
-   background-color: darkgray;
+   background-color: #A08C5B;
    transition: transform(00.5s);
 }
 .animate:hover
@@ -41,7 +46,7 @@ a
    position: absolute;
    top: 50%;
    right: 50%;
-   background-color: darkgray;
+   background-color: #A08C5B;
    padding: 1em;
    border-radius: 5px;
    height: 150px;
@@ -51,18 +56,18 @@ a
 
 .overlaycenter h1{
     font-family: 'choco', 'Times New Roman', Times, serif;
-    color: #fff;
+    color: #A08C5B;
     text-shadow: 0,0,0,0.5 #000 ;
 }
 .overlaycenter h2{
     font-family: 'choco', 'Times New Roman', Times, serif;
-    color: #fff;
+    color: #A08C5B;
     text-shadow: 0,0,0,0.5 #000 ;
     font-weight: bolder;
 }
 .overlaycenter h6{
     font-family: 'choco', 'Times New Roman', Times, serif;
-    color: #fff;
+    color: #A08C5B;
     text-shadow: 0,0,0,0.5 #000 ;
     font-weight:lighter;
 }
@@ -79,7 +84,7 @@ a
     display: flex;
     align-items: center;
     justify-content: center;
-    color: white;
+    color: #785f37;
     
 }
 .menufooter
@@ -101,13 +106,13 @@ a
 .menufooter div span
 {
     position: absolute;
-    color: #6080f5;
+    color: #785f37;
     width: 100%;
     height: 100%;
     padding:1em 2em;
     left: 0;
     top: 100%;
-    border-bottom: 5px solid #6080f5;
+    border-bottom: 5px solid #785f37;
 
 }
 .menufooter div:hover
