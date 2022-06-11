@@ -1,0 +1,113 @@
+#head
+{
+    align-items: center;
+    justify-content: center;
+    padding:1px;
+    background-color: #113768;
+}
+.name
+{
+    font-family: Copperplate, fantasy;
+    font-weight: bolder;
+    color: white;
+   
+}
+.blueback
+{
+    background-color: #113768;
+}
+.menu_1
+{
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    position: -webkit-sticky;
+    position: sticky;
+    top:0;
+    z-index: 1;
+}
+.redback
+{
+    background-color:rgb(219, 58, 58);
+
+}
+.top_ten
+{
+    color:#0598ce;
+    padding:1px;
+    align-self: stretch;
+    text-align: center;
+    background-color: black;
+}
+.top_ten_font
+{
+    background-color: black;
+    padding: 1em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.nav-link
+{
+    color:blue;
+    font-weight: bold;
+}
+.nav-item
+{
+    
+    padding: 1em;
+    font-weight: bold;
+}
+.footer
+{
+    margin-top: 2px;
+    padding: 30px;
+    color: white;
+    background-color: black;
+    justify-content: center;
+    margin: 2px;
+    padding-top: 50px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.carouselfont
+{
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  font-size: 30px;
+  
+  margin: 5px;
+}
+.a.one:link, a.one:visited
+{
+    color: white;
+    text-decoration-line: none;
+}
+.whiteback
+{
+    background-color: white;
+}
+.lightback
+{
+    background-color:  #f56f02;
+}
+.blackback
+{
+    background-color: black;
+}
+.row_four
+{
+    
+    padding: 2px;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.menu_2
+{
+    color: white;
+    margin: 2px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 2em;
+}
